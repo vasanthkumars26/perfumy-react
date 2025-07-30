@@ -1,10 +1,13 @@
 import React from 'react'
 
-const images = [
-    { src: "https://bellavitaorganic.com/cdn/shop/files/Fresh_100_ml.jpg?v=1728034537&width=1000" ,text:"Fogg wood high intense"},
-  { src: "https://bellavitaorganic.com/cdn/shop/files/Fresh_100_ml.jpg?v=1728034537&width=1000 " , text:"Bellavita For men" },
-  { src: "https://bellavitaorganic.com/cdn/shop/files/Fresh_100_ml.jpg?v=1728034537&width=1000",text:"Bellavita CEO" }
-]
+
+    const images = [
+  { src: "https://bellavitaorganic.com/cdn/shop/files/Fresh_100_ml.jpg?v=1728034537&width=1000", text: "Fogg wood high intense" },
+  { src: "https://bellavitaorganic.com/cdn/shop/files/Fresh_100_ml.jpg?v=1728034537&width=1000", text: "Bellavita For men" }, // removed space here
+  { src: "https://bellavitaorganic.com/cdn/shop/files/Fresh_100_ml.jpg?v=1728034537&width=1000", text: "Bellavita CEO" }
+];
+
+
 
 
 const Hero = () => {
